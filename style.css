@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #e1e1e1;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 12px;
+  color: #222;
+}
+
+h3 {
+  color: #aaa;
+  font-size: 13px;
+  margin: 10px 0 10px 0;
+}
+ol {
+  padding-left: 20px;
+}
+img {
+  border: none;
+}
+a {
+  color: #1da484;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+}
+
+#wrap {
+  margin: 20px auto;
+  width: 800px;
+}
+
+#header {
+  background: #f2f2f2;
+  height: 100px;
+}
+#header h1 {
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -3px;
+  padding: 20px 0 0 30px;
+}
+#header h1 a {
+  text-decoration: none;
+  color: #333;
+}
+#header h1 a:hover {
+  text-decoration: none;
+  color: #000;
+}
+#header h2 {
+  color: #1da484;
+  font-size: 17px;
+  font-weight: 100;
+  padding: 0 0 0 30px;
+}
+
+#content {
+  padding: 10px 10px;
+  background: #d0d0d0;
+}
+.right {
+  float: right;
+  width: 580px;
+  text-align: justify;
+  padding: 0 10px 10px 10px;
+}
+.right h2 {
+  color: #2b2a2a;
+  font-size: 20px;
+  letter-spacing: -2px;
+  font-weight: 100;
+  padding: 10px 0 15px 0;
+}
+.right h2 a {
+}
+.right h2 a:hover {
+}
+.left {
+  float: left;
+  width: 160px;
+  padding: 10px;
+}
+.left h2 {
+  font-size: 13px;
+  color: #333;
+  padding: 5px 0 2px 10px;
+}
+.left ul {
+  list-style-type: none;
+  padding: 5px 0 10px 15px;
+}
+
+.left ul li a {
+  display: block;
+  color: #444;
+}
+.left ul li a:hover {
+  color: #524f4f;
+}
+
+#footer {
+  background: #333;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #eee;
+  font-size: 11px;
+}
+#footer a {
+  color: #eee;
+}
